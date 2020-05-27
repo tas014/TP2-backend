@@ -25,28 +25,28 @@
             "continue": true
         },
         {
-            "src": "/cerveceria/(?<id>[^/]+)",
+            "src": "/astronomy_activator/(?<id>[^/]+)",
             "dest": "/app.js/?id=$id",
             "methods": [
                 "DELETE"
             ]
         },
         {
-            "src": "/cerveceria/(?<id>[^/]+)",
+            "src": "/astronomy_activator/(?<id>[^/]+)",
             "dest": "/app.js/?id=$id",
             "methods": [
                 "PUT"
             ]
         },
         {
-            "src": "/cervecerias",
+            "src": "/lightlevel_database",
             "dest": "/app.js",
             "methods": [
                 "GET"
             ]
         },
         {
-            "src": "/cervecerias",
+            "src": "/lightlevel_database",
             "dest": "/app.js",
             "methods": [
                 "POST"
